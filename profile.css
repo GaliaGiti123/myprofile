@@ -43,9 +43,13 @@ li>a{
 }
 
 p:nth-of-type(2){
-	border: 3px solid gray;
 	padding: 10px;
 	width: 50%;
+	padding: 20px;
+
+	-webkit-box-shadow: 6px 5px 41px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 5px 41px -2px rgba(0,0,0,0.75);
+	box-shadow: 6px 5px 41px -2px rgba(0,0,0,0.75);
 	
 }
 img{
@@ -55,8 +59,8 @@ img{
 }
 li>a:hover,
 li>a:focus{
-	background: blue;
-	 color: rgb(250, 60, 100);
+	background: rgb(6, 202, 121);
+	 color: rgb(224, 224, 224);
 }
 p:nth-of-type(1){
 	font-family: Montserrat;
@@ -71,5 +75,5 @@ p:nth-of-type(1){
 	
 
 body{
-	background: skyblue;
+	background: rgb(248, 249, 250);
 }
